@@ -9,7 +9,7 @@ function print_timings() {
             document.write(res)
             document.close()
             if (res == 'School\'s out!') {
-                var y = setInterval(function() {
+                setInterval(function() {
                     //
                 }, 60000*3.5)
             }
@@ -17,6 +17,6 @@ function print_timings() {
     })
 }
 print_timings()
-var x = setInterval(function() {
+setInterval(function() {
     print_timings()
 }, 45000)
