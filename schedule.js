@@ -6,7 +6,7 @@ function print_timings() {
             xhr.setRequestHeader('Access-Control-Allow-Origin', '*')
         },
         success: function(res) {
-            res = '<link rel="stylesheet" href="style.css"><p>' + res + '</p>'
+            res = '<title>Harker Schedule</title><link rel="stylesheet" href="style.css"><p>' + res + '</p>'
             document.write(res)
             document.close()
             if (res == 'School\'s out!') {
