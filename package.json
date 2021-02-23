@@ -1,0 +1,19 @@
+{
+  "name": "schedule-popup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "open index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harker-Hackers/Schedule-Popup.git"
+  },
+  "author": "Aarav Borthakur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Harker-Hackers/Schedule-Popup/issues"
+  },
+  "homepage": "https://github.com/Harker-Hackers/Schedule-Popup#readme"
+}
