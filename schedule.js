@@ -14,7 +14,7 @@ function print_timings() {
                 }, 60000*3.5)
             }
         }
-    });
+    })
 }
 print_timings()
 var x = setInterval(function() {
